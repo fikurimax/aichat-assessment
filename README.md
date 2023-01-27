@@ -33,6 +33,8 @@
   - method: **POST**
   - header:
     - Authorization: Bearer token
+  - request:
+    - photo: file (maximum size: 2Mb)
   - response:
     - json:
     ```
